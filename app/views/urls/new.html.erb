@@ -1,0 +1,7 @@
+<h1>Urls</h1>
+<%= form_for @url do |f| %>
+  <%= f.label :original_url %><br>
+  <%= f.text_field :original_url %>
+  <%= f.submit %>
+<% end %>
+<%= url_url(params[:id]) if params[:id] %>
